@@ -1,0 +1,75 @@
+body {
+    background-color: #445069;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+hr {
+    margin: 100px auto;
+    width: 4%;
+    border: dotted 6px;
+    border-bottom: none;
+}
+
+#title {
+    background-color: #5B9A8B;
+    
+}
+
+#resume {
+    text-align: center;
+}
+
+.contato {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.texto {
+    width: 30%;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.botao {
+    background-color: #5B9A8B;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+}
+
+#footer {
+    background-color: #5B9A8B;
+}
